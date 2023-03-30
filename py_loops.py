@@ -8,7 +8,7 @@ if __name__ == "__main__":
         end = int(input("Enter the ending number: "))
 
         for i in range(start, end-1, -1):
-            if i :
                 print(i)
+        print("The end")
     except ValueError:
         print("Please enter a valid number")
